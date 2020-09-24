@@ -8,11 +8,11 @@ const app = express();
 
 // initialize pusher
 let pusher = new Pusher({
-    appId: 'PUSHER_APP_ID',
-    key: 'PUSHER_APP_KEY',
-    secret: 'PUSHER_APP_SECRET',
-    cluster: 'PUSHER_APP_CLUSTER',
-    useTLS: true
+  appId: '773824',
+  key: '15bb5ed7c60c8f53d4b8',
+  secret: '89f218c9d295f02bf2dd',
+  cluster: 'us3',
+  useTLS: true,
 });
 
 app.use(bodyParser.json());
